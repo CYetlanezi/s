@@ -75,7 +75,7 @@ and open the template in the editor.
                 <center>
             <img src="css/imagen/profile.png" alt=""/>
                     Número de Trabajador:
-                    <input type="text" name="ntrabajador" require="true" label="Numero de Trabajador" size="30" style="margin:15px;" onkeypress = 'return soloEnteros(event); return v(event)' required>
+                    <input type="text" name="ntrabajador" require="true" oncopy="return false" oncut="return false" onpaste="return false" label="Numero de Trabajador" size="30" style="margin:15px;" onkeypress = 'return soloEnteros(event); return v(event)' required>
                     <br>
                     <br>                    
                     <input type="submit" value="Baja" name="boton"><input type="reset" value="Limpiar" />

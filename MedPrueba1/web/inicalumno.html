@@ -31,10 +31,10 @@ and open the template in the editor.
                 <div id="form-signin">
                     <form id="Info" action="sesion" method="post"> 
                     <div class="showcase">
-                    <input type="text" class="text" placeholder="Boleta" id="username" name="boleta" maxlength="10" onKeyPress="return Numeros(event)" required>
+                    <input type="text" class="text" placeholder="Boleta" id="username" name="boleta" oncopy="return false" oncut="return false" onpaste="return false" maxlength="10" onKeyPress="return Numeros(event)" required>
                     </div>                       
                     <div class="showcase">                    
-                    <input type="password" class="text" placeholder="Clave de Acceso" id="password" maxlength="20" name="clave" required>
+                    <input type="password" class="text" placeholder="Clave de Acceso" id="password" maxlength="20" oncopy="return false" oncut="return false" onpaste="return false" name="clave" required>
                     </div>
                     <br>                     
                                                        
